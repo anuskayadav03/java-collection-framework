@@ -24,7 +24,7 @@ public class arrayList {
 
         //adding two Lists:
         //create another list
-        List<String> newlist = new ArrayList();
+        List<String> newlist = new ArrayList<>();
         newlist.add("1");
         newlist.add("2");
         newlist.add("3");
@@ -57,7 +57,7 @@ public class arrayList {
 
         //ITERATION
         // 1: for loop
-        for (int i=0; i<List.size(); i++){
+        for(int i=0; i<List.size(); i++){
             System.out.println("the elements of list are :" +List.get(i));
         }
 
